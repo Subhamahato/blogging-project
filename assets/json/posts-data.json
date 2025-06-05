@@ -1,0 +1,38 @@
+[
+    {
+        "fileName": "assets/document-contents/post.docx",
+        "title": "1. Welcome to My Awesome Blog!",
+        "description": "This is a sample post demonstrating how content is loaded dynamically from a DOCX file.",
+        "thumbnail": "assets/images/thumbnail-images/images (1).jpeg"
+    },
+    {
+        "fileName": "assets/document-contents/post1.docx",
+        "title": "2. Building a Portfolio Website with React",
+        "description": "Learn the basics of creating a stunning portfolio using React.js and modern web development practices.",
+        "thumbnail": ""
+    },
+    {
+        "fileName": "assets/document-contents/post2.docx",
+        "title": "3. Mastering CSS Grid for Complex Layouts",
+        "description": "Dive deep into CSS Grid and discover how to build intricate and responsive layouts with ease.",
+        "thumbnail": "https://via.placeholder.com/280x180?text=CSS+Grid"
+    },
+    {
+        "fileName": "assets/document-contents/post3.docx",
+        "title": "4. चाणक्य नीति की महत्वता",
+        "description": "चाणक्य नीति सहित अन्य शास्त्रीय ग्रंथों का वर्तमान समय में किस प्रकार से लाभ उठाया जा सकता है?",
+        "thumbnail": "https://via.placeholder.com/280x180?text=Serverless"
+    },
+    {
+        "fileName": "assets/document-contents/post4.docx",
+        "title": "5. The Future of Web Development: AI & ML",
+        "description": "Discover how artificial intelligence and machine learning are shaping the future of web development.",
+        "thumbnail": "https://via.placeholder.com/280x180?text=AI+%26+ML"
+    },
+    {
+        "fileName": "assets/document-contents/post5.docx",
+        "title": "6. हिंदी लेखन",
+        "description": "इस लेख का संक्षिप्त वर्णन",
+        "thumbnail": "assets/images/thumbnail-images/images (100).jpeg"
+    }
+]
