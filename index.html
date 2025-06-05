@@ -1,1 +1,82 @@
-hii
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subham's Blog</title>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+</head>
+<body>
+    <header class="blog-header">
+        <h1>Subham's Blog</h1>
+        <button class="hamburger-button" aria-label="Toggle navigation menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html?doc=assets/document-contents/about">About</a></li>
+                <li><a href="index.html?doc=assets/document-contents/">Categories</a></li>
+                <li><a href="index.html?doc=assets/document-contents/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="theme-toggle" id="themeToggle" title="Toggle Day / Night Mode" aria-label="Toggle Day / Night Mode" role="button" tabindex="0">
+        <img src="assets/images/toggle-images/sun.png" alt="Sun" class="sun-png" id="sunPng">
+        <svg class="sun-svg" id="sunSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+        </svg>
+
+        <img src="assets/images/toggle-images/moon.png" alt="Moon" class="moon-png" id="moonPng">
+        <svg class="moon-svg" id="moonSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="10" fill="none" stroke="none" />
+            <path class="crater" d="M10 8a2 2 0 10-4 0 2 2 0 104 0z"/>
+            <path class="crater" d="M15 15a1.5 1.5 0 10-3 0 1.5 1.5 0 103 0z"/>
+            <path class="crater" d="M7 17a1 1 0 10-2 0 1 1 0 102 0z"/>
+            <path class="crater" d="M17 8a1.2 1.2 0 10-2.4 0 1.2 1.2 0 102.4 0z"/>
+            <path class="crater" d="M7 6a0.8 0.8 0 10-1.6 0 0.8 0.8 0 101.6 0z"/>
+            <path class="crater" d="M10 16a1.5 1.5 0 10-3 0 1.5 1.5 0 103 0z"/>
+            <path class="crater" d="M19 12a1 1 0 10-2 0 1 1 0 102 0z"/>
+        </svg>
+    </div>
+
+    <div class="dialog-overlay" id="themeToggleDialog">
+        <div class="dialog-box">
+            <h2 id="dialogTitle"></h2>
+            <p id="dialogMessage"></p>
+            <button id="dialogOkButton">OK</button>
+        </div>
+    </div>
+
+    <main class="blog-container">
+        <article class="main-blog-post" id="blog-content">
+            <p>Loading blog content...</p>
+        </article>
+
+        <section class="related-posts">
+            <h3>You might also like:</h3>
+            <div class="related-posts-grid" id="relatedPostsGrid">
+                <p id="noRelatedPostsMessage" style="display: none; text-align: center; color: #777;">No other posts to display.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="blog-footer">
+        <p>&copy; 2025 Subham's Blog | All rights reserved.</p>
+    </footer>
+    
+    <script src="assets/js/mammoth.browser.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
